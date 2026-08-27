@@ -1,0 +1,36 @@
+Start
+   │
+   ▼
+Initialize Weight (w) = 0
+Initialize Bias (b) = 0
+   │
+   ▼
+For each Epoch
+   │
+   ▼
+Predict
+ŷ = wX + b
+   │
+   ▼
+Calculate Error
+error = ŷ − y
+   │
+   ▼
+Calculate Loss
+MSE = mean(error²)
+   │
+   ▼
+Calculate Gradient
+dw = (2/n) Σ(X × error)
+db = (2/n) Σ(error)
+   │
+   ▼
+Update Parameters
+w = w − αdw
+b = b − αdb
+   │
+   ▼
+Repeat until epochs finish
+   │
+   ▼
+Model Ready

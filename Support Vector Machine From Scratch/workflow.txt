@@ -1,0 +1,35 @@
+Start
+   │
+   ▼
+Initialize Weights & Bias
+   │
+   ▼
+Convert Labels
+0 → -1
+1 → +1
+   │
+   ▼
+For Each Epoch
+   │
+   ▼
+Compute
+y(wx+b)
+   │
+   ▼
+Correct Margin?
+ ┌───────────────┐
+ │               │
+Yes             No
+ │               │
+ ▼               ▼
+Regularize     Hinge Loss Update
+ │               │
+ └───────┬───────┘
+         ▼
+Update Weight & Bias
+         │
+         ▼
+Repeat
+         │
+         ▼
+Model Ready

@@ -1,0 +1,32 @@
+Initialize Weight and Bias
+        │
+        ▼
+Compute Linear Equation
+z = wX + b
+        │
+        ▼
+Apply Sigmoid Function
+p = 1 / (1 + e^-z)
+        │
+        ▼
+Compute Binary Cross Entropy Loss
+        │
+        ▼
+Compute Gradients
+dw
+db
+        │
+        ▼
+Update Weight and Bias
+        │
+        ▼
+Repeat Until Epochs Finish
+        │
+        ▼
+Predict Probability
+        │
+        ▼
+Threshold (0.5)
+        │
+        ▼
+Class 0 or 1

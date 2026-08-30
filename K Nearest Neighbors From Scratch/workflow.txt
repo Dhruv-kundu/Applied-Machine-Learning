@@ -1,0 +1,39 @@
+Start
+   │
+   ▼
+Choose K
+   │
+   ▼
+Store Training Data
+   │
+   ▼
+Take Test Data Point
+   │
+   ▼
+Calculate Distance
+from Test Point to Every
+Training Point
+   │
+   ▼
+Sort Distances
+   │
+   ▼
+Select K Nearest Neighbors
+   │
+   ▼
+Check Their Classes
+   │
+   ▼
+Majority Voting
+   │
+   ▼
+Assign Most Frequent Class
+   │
+   ▼
+Prediction
+   │
+   ▼
+Repeat for All Test Points
+   │
+   ▼
+End

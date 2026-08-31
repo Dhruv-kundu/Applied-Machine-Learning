@@ -1,0 +1,21 @@
+Start
+   │
+   ▼
+Choose Best Feature
+   │
+   ▼
+Split Dataset
+   │
+   ▼
+Calculate Impurity
+(Gini or Entropy)
+   │
+   ▼
+Choose Best Split
+   │
+   ▼
+Repeat Recursively
+   │
+   ▼
+Leaf Node
+(Class Prediction)
